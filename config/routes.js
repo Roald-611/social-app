@@ -28,7 +28,7 @@ module.exports.routes = {
   'GET /followings':'UserController.accountFollowingList',
   'GET /follows':'UserController.accountFollowList',
   'GET /post/:postId/likes':'PostController.postLikesList',
-
+  'GET /post/:postId/comments':'CommentController.showComments',
 
   'POST /register':'UserController/ragisterUser',
   'POST /login':'UserController/loginUser',
